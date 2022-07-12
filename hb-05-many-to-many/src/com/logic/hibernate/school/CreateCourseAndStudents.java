@@ -35,15 +35,15 @@ public class CreateCourseAndStudents {
 			session.beginTransaction();
 			
 			// create a course
-			Course tempCourse = new Course("Bhakti SHastri");
+			Course tempCourse = new Course("Java and Spring");
 			
 			
 			// save the course
 			session.save(tempCourse); 
 			
 			//create the students
-			Student tempStudent1 = new Student("raj", "kaj", "raj@kaj.com");
-			Student tempStudent2 = new Student("maj", "saj", "maj@saj.com");
+			Student tempStudent1 = new Student("jaggu", "patil", "jaggu@patil.com");
+			Student tempStudent2 = new Student("anu", "choudhary", "anu@choudhary.com");
 			
 			
 			// add students to the course

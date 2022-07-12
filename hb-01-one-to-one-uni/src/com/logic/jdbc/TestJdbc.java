@@ -16,7 +16,6 @@ public class TestJdbc {
 			System.out.println("Connecting to DB: " + jdbcUrl);
 			
 			Connection myConn = DriverManager.getConnection(jdbcUrl, user, pwd);
-			
 			System.out.println("Connection successful!!!");
 		} catch (SQLException e) {
 
